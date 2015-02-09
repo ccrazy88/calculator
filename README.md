@@ -1,6 +1,6 @@
 # Calculator
 
-## Required Tasks
+## Notes About Required Tasks
 
 > Get the Calculator working as demonstrated in lectures 1 and 2. The
 > Autolayout portion at the end of the lecture is extra credit, but give it a
@@ -15,3 +15,16 @@ exceptions:
 - Used standard values for autolayout constraints rather than hard-coded value
   of 8
 - Made all properties and functions private
+
+> Add the following operation to your Calculator:
+>
+> - π: calculates (well, conjures up) the value of π. For example, 3 π × should
+>      put three times the value of π into the display on your calculator.
+>      Ditto 3 ↲ π x and also π 3 ×.
+
+π is implemented as an operation.
+
+> Add a UILabel to your UI which shows a history of every operand and operation
+> input by the user. Place it at an appropriate location in your UI.
+
+The UILabel does not show results of operations.
