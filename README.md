@@ -28,3 +28,17 @@ exceptions:
 > input by the user. Place it at an appropriate location in your UI.
 
 The UILabel does not show results of operations.
+
+## Notes About Extra Credit
+
+> Implement a "backspace" button for the user to touch if they hit the wrong
+> digit button. It is up to you to decide how to handle the case where the user
+> backspaces away the entire number they are in the middle of typing, but
+> having the display go completely blank is probably not very user-friendly.
+
+Backspacing away the entire number will return the display to "0."
+
+> When the user hits an operation button, put an = on the end of the UILabel
+> you added in the Required Task above.
+
+The equals sign will disappear once outside of an operation as well.
