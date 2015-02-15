@@ -161,8 +161,12 @@ class ViewController: UIViewController {
 
     @IBAction private func enter() {
         userIsInTheMiddleOfTypingANumber = false
-        operandStack.append(displayValue!)
-        addToHistory(display.text!)
+        if let displayValue = displayValue {
+            operandStack.append(displayValue)
+            addToHistory(display.text!)
+        } else {
+            display.text = nil
+        }
         println(operandStack)
     }
 
