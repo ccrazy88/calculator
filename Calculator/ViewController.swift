@@ -102,7 +102,7 @@ class ViewController: UIViewController {
     // MARK: -
     // MARK: UI
 
-    @IBAction func reset() {
+    @IBAction private func reset() {
         display.text = "0"
         history.text = historyPlaceholder
 
@@ -124,7 +124,7 @@ class ViewController: UIViewController {
         }
     }
 
-    @IBAction func deleteDigit() {
+    @IBAction private func deleteDigit() {
         if countElements(display.text!) > 0 {
             display.text = dropLast(display.text!)
         }
